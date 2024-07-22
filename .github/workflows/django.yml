@@ -27,4 +27,4 @@ jobs:
         python -m pip install Django
     - name: migration
       run: |
-        $ python manage.py makemigrations
+         python manage.py makemigrations
