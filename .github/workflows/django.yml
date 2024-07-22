@@ -22,6 +22,6 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
   
-    - name: Run migration
+    - name: install django
       run: |
-         python manage.py makemigrations
+        python -m pip install Django
